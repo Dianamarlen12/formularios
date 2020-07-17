@@ -9,4 +9,3 @@ class Delete():
             return render.delete() # renderizando formulario.html
         except Exception as e:
             return "Error " + str(e.args)
-        
